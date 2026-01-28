@@ -65,9 +65,9 @@ export default function SiteHeader() {
 
         <div className="hidden items-center gap-2 md:flex">
           <Button variant="outline" asChild className="gap-2">
-            <a href="tel:1688-4878" aria-label="전화하기">
+            <a href="tel:0507-1351-6657" aria-label="전화하기">
               <Phone className="h-4 w-4" />
-              1688-4878
+              0507-1351-6657
             </a>
           </Button>
           <Button variant="secondary" asChild>
@@ -110,9 +110,9 @@ export default function SiteHeader() {
 
                 <div className="mt-2 grid gap-2">
                   <Button variant="outline" asChild className="justify-start gap-2">
-                    <a href="tel:1688-4878">
+                    <a href="tel:0507-1351-6657">
                       <Phone className="h-4 w-4" />
-                      1688-4878
+                      0507-1351-6657
                     </a>
                   </Button>
                   <Button variant="secondary" asChild className="justify-start">

@@ -41,6 +41,14 @@ export default function SiteFooter() {
               <Link href="/location" className="text-muted-foreground hover:text-foreground">
                 오시는 길
               </Link>
+              <a 
+                href="https://blog.naver.com/tiretrack_01" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground"
+              >
+                네이버 블로그 ↗
+              </a>
             </div>
           </div>
 
@@ -51,15 +59,16 @@ export default function SiteFooter() {
                 <Clock className="mt-0.5 h-4 w-4 text-secondary" />
                 <div>
                   <div className="text-foreground">운영 시간</div>
-                  <div>평일 09:00 - 19:00 · 주말 09:00 - 18:00</div>
+                  <div>월~목 09:00 - 19:00</div>
+                  <div>금토 09:00 - 18:00 · 일 정기휴무</div>
                 </div>
               </div>
               <div className="flex items-start gap-2">
                 <Phone className="mt-0.5 h-4 w-4 text-secondary" />
                 <div>
                   <div className="text-foreground">전화</div>
-                  <a className="hover:text-foreground" href="tel:1688-4878">
-                    1688-4878
+                  <a className="hover:text-foreground" href="tel:0507-1351-6657">
+                    0507-1351-6657
                   </a>
                 </div>
               </div>
@@ -68,6 +77,7 @@ export default function SiteFooter() {
                 <div>
                   <div className="text-foreground">주소</div>
                   <div>서울 서초구 바우뫼로 210</div>
+                  <div className="text-xs">(벤츠 양재서비스센터 맞은편)</div>
                 </div>
               </div>
             </div>

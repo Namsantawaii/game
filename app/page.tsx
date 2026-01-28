@@ -114,7 +114,7 @@ export default function HomePage() {
                   <div>
                     <div className="font-semibold">운영 시간</div>
                     <div className="text-sm text-white/80">
-                      평일 09:00 - 19:00 · 주말 09:00 - 18:00
+                      월~목 09:00 - 19:00 · 금토 09:00 - 18:00 · 일 정기휴무
                     </div>
                   </div>
                 </div>
@@ -122,8 +122,8 @@ export default function HomePage() {
                   <Phone className="mt-0.5 h-5 w-5 text-secondary" />
                   <div>
                     <div className="font-semibold">전화</div>
-                    <a className="text-sm text-white/80 underline-offset-4 hover:underline" href="tel:1688-4878">
-                      1688-4878
+                    <a className="text-sm text-white/80 underline-offset-4 hover:underline" href="tel:0507-1351-6657">
+                      0507-1351-6657
                     </a>
                   </div>
                 </div>
@@ -131,7 +131,11 @@ export default function HomePage() {
                   <MapPin className="mt-0.5 h-5 w-5 text-secondary" />
                   <div>
                     <div className="font-semibold">위치</div>
-                    <div className="text-sm text-white/80">서울 서초구 바우뫼로 210</div>
+                    <div className="text-sm text-white/80">
+                      서울 서초구 바우뫼로 210
+                      <br />
+                      <span className="text-xs text-white/60">벤츠 양재서비스센터 맞은편</span>
+                    </div>
                   </div>
                 </div>
               </div>
