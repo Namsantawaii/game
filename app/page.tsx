@@ -50,6 +50,9 @@ export default function HomePage() {
                 3D 장비 완비
               </Badge>
               <Badge variant="outline" className="border-white/30 bg-white/5 text-white text-sm">
+                타이어 지참 장착 OK
+              </Badge>
+              <Badge variant="outline" className="border-white/30 bg-white/5 text-white text-sm">
                 24시간 상담
               </Badge>
             </div>
@@ -74,7 +77,7 @@ export default function HomePage() {
               </Button>
             </div>
 
-            <div className="grid grid-cols-3 gap-3 pt-2 text-xs text-primary-foreground/80 sm:text-sm">
+            <div className="grid grid-cols-2 gap-3 pt-2 text-xs text-primary-foreground/80 sm:grid-cols-4 sm:text-sm">
               <div className="rounded-lg border border-white/15 bg-white/5 p-3">
                 <div className="font-semibold text-white">슈퍼카 전문</div>
                 <div>고급차 작업</div>
@@ -82,6 +85,10 @@ export default function HomePage() {
               <div className="rounded-lg border border-white/15 bg-white/5 p-3">
                 <div className="font-semibold text-white">3D 장비</div>
                 <div>정밀 측정</div>
+              </div>
+              <div className="rounded-lg border border-white/15 bg-white/5 p-3">
+                <div className="font-semibold text-white">타이어 지참</div>
+                <div>장착만 가능</div>
               </div>
               <div className="rounded-lg border border-white/15 bg-white/5 p-3">
                 <div className="font-semibold text-white">빠른 작업</div>
@@ -163,11 +170,11 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             <Card className="relative overflow-hidden border-primary/20 shadow-lg">
               <div className="absolute right-0 top-0 h-24 w-24 -translate-y-8 translate-x-8 rounded-full bg-secondary/10" />
               <CardHeader>
-                <CardTitle className="flex items-center gap-2">
+                <CardTitle className="flex items-center gap-2 text-base">
                   <Wrench className="h-5 w-5 text-secondary" />
                   프리미엄 타이어 교체
                 </CardTitle>
@@ -180,11 +187,30 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
+            <Card className="relative overflow-hidden border-secondary/30 shadow-lg ring-2 ring-secondary/20">
+              <div className="absolute right-0 top-0 h-24 w-24 -translate-y-8 translate-x-8 rounded-full bg-secondary/10" />
+              <div className="absolute right-2 top-2">
+                <Badge variant="secondary" className="text-xs">인기</Badge>
+              </div>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2 text-base">
+                  <BadgeCheck className="h-5 w-5 text-secondary" />
+                  타이어 지참 장착
+                </CardTitle>
+                <CardDescription>
+                  타이어를 직접 구매하셨나요? 장착만 해드립니다!
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="text-sm text-muted-foreground">
+                온라인 구매 타이어 OK · 합리적인 장착비 · 전문 장착 서비스
+              </CardContent>
+            </Card>
+
             <Card className="relative overflow-hidden border-primary/20 shadow-lg">
               <div className="absolute right-0 top-0 h-24 w-24 -translate-y-8 translate-x-8 rounded-full bg-primary/10" />
               <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <BadgeCheck className="h-5 w-5 text-primary" />
+                <CardTitle className="flex items-center gap-2 text-base">
+                  <Gauge className="h-5 w-5 text-primary" />
                   3D 휠얼라인먼트
                 </CardTitle>
                 <CardDescription>
@@ -199,7 +225,7 @@ export default function HomePage() {
             <Card className="relative overflow-hidden border-primary/20 shadow-lg">
               <div className="absolute right-0 top-0 h-24 w-24 -translate-y-8 translate-x-8 rounded-full bg-secondary/10" />
               <CardHeader>
-                <CardTitle className="flex items-center gap-2">
+                <CardTitle className="flex items-center gap-2 text-base">
                   <Timer className="h-5 w-5 text-secondary" />
                   긴급 출동 서비스
                 </CardTitle>
