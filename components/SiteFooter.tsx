@@ -67,7 +67,7 @@ export default function SiteFooter() {
                 <MapPin className="mt-0.5 h-4 w-4 text-secondary" />
                 <div>
                   <div className="text-foreground">주소</div>
-                  <div>경기도 과천시 주암동 (양재 인근)</div>
+                  <div>서울 서초구 바우뫼로 210</div>
                 </div>
               </div>
             </div>

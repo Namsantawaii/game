@@ -124,7 +124,7 @@ export default function HomePage() {
                   <MapPin className="mt-0.5 h-5 w-5 text-secondary" />
                   <div>
                     <div className="font-semibold">위치</div>
-                    <div className="text-sm text-white/80">경기도 과천시 주암동 (양재 인근)</div>
+                    <div className="text-sm text-white/80">서울 서초구 바우뫼로 210</div>
                   </div>
                 </div>
               </div>
